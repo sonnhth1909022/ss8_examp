@@ -8,6 +8,5 @@
     </decorator>
     <decorator name="admin" page="admin-template.jsp">
         <pattern>/admin*</pattern>
-        <pattern>/login</pattern>
     </decorator>
 </decorators>

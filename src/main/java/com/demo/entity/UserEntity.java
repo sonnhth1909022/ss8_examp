@@ -10,12 +10,6 @@ public class UserEntity implements Serializable {
     public UserEntity() {
     }
 
-    public boolean checkLogin() {
-        if (username.equalsIgnoreCase("admin") && password.equalsIgnoreCase("123"))
-            return true;
-        return false;
-    }
-
     public UserEntity(String username, String password) {
         this.username = username;
         this.password = password;

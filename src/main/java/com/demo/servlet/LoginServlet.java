@@ -18,14 +18,7 @@ import java.sql.Statement;
 @WebServlet(name = "LoginServlet",urlPatterns = {"/login"})
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-        UserEntity user = new UserEntity(username, password);
-        if (user.checkLogin())
-            response.sendRedirect("adminproducts");
-        else {
-            return;
-        }
+        
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
