@@ -1,6 +1,6 @@
 # WCD Assignment
 Hướng dẫn sử dụng:
-- Bước 1: mở PHPMyadmin, tạo database mới rỗng (không có dữ liệu), sau đó import file asignment.sql ở trong folder của project và thực hiện lệnh.
+- Bước 1: mở PHPMyadmin, tạo database mới rỗng (không có dữ liệu), sau đó import file asignment.sql ở trong folder của project và chạy lệnh save.
 - Bước 2: Sau khi tạo db và thêm dữ liệu xong, chạy project từ folder ss8_examp
 - Bước 3: Đợi 1 lúc cho project load index, khi có thông báo framework detected, click vào configure và nhấn OK.
 - Bước 4: vào file persistence.xml thay đổi cấu hình url và username, password (theo db)
